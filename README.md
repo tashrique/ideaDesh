@@ -23,26 +23,26 @@ IdeaDesh is a Ruby on Rails platform designed to connect early-stage founders, t
 
 ## Tech Stack
 
-### Backend & Database (Free Options)
-- **Ruby on Rails** (Open-source)
-- **PostgreSQL** (Free-tier database)
-- **Redis** (Upstash free tier or Self-hosted Redis)
-- **Sidekiq** (Free version, no Pro features)
+### Backend & Database
+- **Ruby on Rails** 
+- **PostgreSQL** 
+- **Redis** 
+- **Sidekiq** 
 
 ### Frontend & UI
-- **Hotwire** (Turbo & Stimulus) (Built into Rails)
-- **Tailwind CSS** (Open-source)
-- **Alpine.js** (Optional, lightweight JS framework)
+- **Hotwire** (Turbo & Stimulus) 
+- **Tailwind CSS** 
+- **Alpine.js** 
 
 ### Authentication & Security
-- **Devise** (Free authentication system)
-- **OmniAuth** (Free social logins - Google, LinkedIn)
-- **JWT** (Built-in secure authentication)
+- **Devise**
+- **OmniAuth** 
+- **JWT**
 
 ### Hosting & Deployment (Free Services)
-- **Backend**: Fly.io or Railway.app (Free tiers)
-- **Frontend**: Fly.io or Cloudflare Pages
-- **Database**: Supabase or NeonDB (Free PostgreSQL)
+- **Backend**: Render.com
+- **Frontend**: Render.com
+- **Database**: Supabase
 - **File Storage**: Cloudflare R2 (Free S3-compatible)
 - **Caching**: Upstash Redis (Free tier)
 
