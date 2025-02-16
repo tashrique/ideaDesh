@@ -1,0 +1,35 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore cache files.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore database files.
+*.sqlite3
+*.sqlite3-journal
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-wal
+/db/*.sqlite3-shm
+
+# Ignore credentials.
+config/master.key
+config/credentials.yml.enc
+
+# Ignore compiled assets.
+/public/assets
+/public/packs
+/node_modules
+
+# Ignore test and coverage results.
+/coverage/
+/spec/examples.txt
+
+# Ignore editor & OS-generated files.
+*.swp
+.DS_Store
+.idea
+.vscode
