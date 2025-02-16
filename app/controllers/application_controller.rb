@@ -1,4 +1,18 @@
 class ApplicationController < ActionController::Base
-  # Only allow modern browsers supporting webp images, web push, badges, import maps, CSS nesting, and CSS :has.
-  allow_browser versions: :modern
+  before_action :authenticate_user!
+
+  def after_sign_in_path_for(resource)
+    case resource.role
+    when "founder", "cofounder"
+      founders_dashboard_path
+    when "investor"
+      investors_dashboard_path
+    when "mentor"
+      mentors_dashboard_path
+    when "job_seeker"
+      job_seekers_dashboard_path
+    else
+      root_path
+    end
+  end
 end
